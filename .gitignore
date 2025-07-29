@@ -1,1 +1,18 @@
-myenv
+# Ignore Python cache and environment folders
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore Jupyter/IPython notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+myenv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
